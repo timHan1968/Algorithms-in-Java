@@ -99,14 +99,7 @@ public class Framework
 	{
 		input(Args[0]);
 
-		MatchedPairsList=new ArrayList<MatchedPair>(); // you should put the final stable matching in this array list
-
-		/* NOTE
-		 * if you want to declare that man x and woman y will get matched in the matching, you can
-		 * write a code similar to what follows:
-		 * MatchedPair pair=new MatchedPair(x,y);
-		 * MatchedPairsList.add(pair);
-		*/
+		MatchedPairsList=new ArrayList<MatchedPair>();
 
 		//YOUR CODE STARTS HERE
 		LinkedList<Integer> freeE = new LinkedList<Integer>();
